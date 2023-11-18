@@ -162,3 +162,5 @@ target_link_libraries(${PRJ_NAME}-dbus CommonAPI-DBus)
 # Build SOME/IP library
 add_library (${PRJ_NAME}-someip SHARED ${PRJ_SOMEIP_LIB_SRCS})
 target_link_libraries(${PRJ_NAME}-someip CommonAPI-SomeIP)
+
+
