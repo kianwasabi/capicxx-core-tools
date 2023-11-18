@@ -3,7 +3,7 @@ name: CommonAPI Code Generator
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
     paths:
       - 'fidl/**.fidl'
       - 'fidl/*SomeIP*.fdepl'
